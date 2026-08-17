@@ -1,0 +1,104 @@
+# $name for eza
+# $description
+#
+# Generated with bloom; edit template.yml, not the files in dist/.
+
+filekinds:
+  normal: { foreground: "$text" }
+  directory: { foreground: "$iris", is_bold: true }
+  symlink: { foreground: "$foam" }
+  pipe: { foreground: "$muted" }
+  block_device: { foreground: "$love" }
+  char_device: { foreground: "$love" }
+  socket: { foreground: "$muted" }
+  special: { foreground: "$iris" }
+  executable: { foreground: "$pine", is_bold: true }
+  mount_point: { foreground: "$foam" }
+
+perms:
+  user_read: { foreground: "$text" }
+  user_write: { foreground: "$gold" }
+  user_execute_file: { foreground: "$pine" }
+  user_execute_other: { foreground: "$pine" }
+  group_read: { foreground: "$subtle" }
+  group_write: { foreground: "$gold" }
+  group_execute: { foreground: "$pine" }
+  other_read: { foreground: "$subtle" }
+  other_write: { foreground: "$gold" }
+  other_execute: { foreground: "$pine" }
+  special_user_file: { foreground: "$iris" }
+  special_other: { foreground: "$muted" }
+  attribute: { foreground: "$muted" }
+
+size:
+  major: { foreground: "$foam" }
+  minor: { foreground: "$pine" }
+  number_byte: { foreground: "$text" }
+  number_kilo: { foreground: "$text" }
+  number_mega: { foreground: "$foam" }
+  number_giga: { foreground: "$iris" }
+  number_huge: { foreground: "$love" }
+  unit_byte: { foreground: "$subtle" }
+  unit_kilo: { foreground: "$subtle" }
+  unit_mega: { foreground: "$foam" }
+  unit_giga: { foreground: "$iris" }
+  unit_huge: { foreground: "$love" }
+
+users:
+  user_you: { foreground: "$text" }
+  user_root: { foreground: "$love" }
+  user_other: { foreground: "$subtle" }
+  group_yours: { foreground: "$subtle" }
+  group_root: { foreground: "$love" }
+  group_other: { foreground: "$muted" }
+
+links:
+  normal: { foreground: "$foam" }
+  multi_link_file: { foreground: "$gold" }
+
+git:
+  new: { foreground: "$foam" }
+  modified: { foreground: "$gold" }
+  deleted: { foreground: "$love" }
+  renamed: { foreground: "$iris" }
+  typechange: { foreground: "$rose" }
+  ignored: { foreground: "$muted" }
+  conflicted: { foreground: "$love" }
+
+git_repo:
+  branch_main: { foreground: "$text" }
+  branch_other: { foreground: "$iris" }
+  git_clean: { foreground: "$foam" }
+  git_dirty: { foreground: "$gold" }
+
+file_type:
+  image: { foreground: "$gold" }
+  video: { foreground: "$love" }
+  music: { foreground: "$foam" }
+  lossless: { foreground: "$pine" }
+  crypto: { foreground: "$love" }
+  document: { foreground: "$text" }
+  compressed: { foreground: "$iris" }
+  temp: { foreground: "$muted" }
+  compiled: { foreground: "$subtle" }
+  build: { foreground: "$rose" }
+  source: { foreground: "$foam" }
+
+security_context:
+  colon: { foreground: "$muted" }
+  user: { foreground: "$subtle" }
+  role: { foreground: "$iris" }
+  typ: { foreground: "$muted" }
+  range: { foreground: "$iris" }
+
+punctuation: { foreground: "$muted" }
+date: { foreground: "$gold" }
+inode: { foreground: "$subtle" }
+blocks: { foreground: "$subtle" }
+header: { foreground: "$text", is_bold: true }
+octal: { foreground: "$foam" }
+flags: { foreground: "$iris" }
+symlink_path: { foreground: "$foam" }
+control_char: { foreground: "$pine" }
+broken_symlink: { foreground: "$love" }
+broken_path_overlay: { foreground: "$muted" }
