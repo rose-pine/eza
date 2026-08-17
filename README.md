@@ -36,15 +36,15 @@ eza --long --git
 
 ### Rosé Pine
 
-<img width="256" alt="Rosé Pine with eza" src="" />
+<img alt="Rosé Pine with eza" src="https://github.com/user-attachments/assets/b86379bd-53e8-4cb3-9466-492cfe12ffde" />
 
 ### Rosé Pine Moon
 
-<img width="256" alt="Rosé Pine Moon with eza" src="" />
+<img alt="Rosé Pine Moon with eza" src="https://github.com/user-attachments/assets/48c263b2-1cba-45ab-867e-72217fd5a2c3" />
 
 ### Rosé Pine Dawn
 
-<img width="256" alt="Rosé Pine Dawn with eza" src="" />
+<img alt="Rosé Pine Dawn with eza" src="https://github.com/user-attachments/assets/87e9370b-4ed3-4016-ae91-c639a02f3851" />
 
 ## Thanks to
 
