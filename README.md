@@ -13,7 +13,7 @@ eza reads its theme from `theme.yml` inside `$EZA_CONFIG_DIR`, which defaults to
 ```sh
 mkdir -p ~/.config/eza
 curl -o ~/.config/eza/theme.yml \
-  https://raw.githubusercontent.com/quentinlintz/rose-pine-eza/main/dist/rose-pine-moon.yml
+  https://raw.githubusercontent.com/rose-pine/eza/main/dist/rose-pine-moon.yml
 ```
 
 Swap `rose-pine-moon.yml` for `rose-pine.yml` or `rose-pine-dawn.yml` to taste.
@@ -48,7 +48,7 @@ eza --long --git
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/quentinlintz)
+- [quentinlintz](https://github.com/quentinlintz)
 
 ## Contributing
 
